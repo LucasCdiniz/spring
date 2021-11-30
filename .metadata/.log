@@ -1,0 +1,607 @@
+!SESSION 2021-11-30 08:51:44.809 -----------------------------------------------
+eclipse.buildId=4.12.1.202110260750
+java.version=17
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=pt_BR
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY org.eclipse.jface 2 0 2021-11-30 08:54:07.670
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2021-11-30 08:54:07.670
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@76105ac0,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@3605ab16,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.egit.ui 2 0 2021-11-30 08:54:22.679
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\lucas'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.ui 2 2 2021-11-30 11:24:43.090
+!MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)
+!SESSION 2021-11-30 15:40:55.943 -----------------------------------------------
+eclipse.buildId=4.12.1.202110260750
+java.version=17
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=pt_BR
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY org.eclipse.jface 2 0 2021-11-30 15:41:19.598
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2021-11-30 15:41:19.598
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@52f7fa65,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@62c6db99,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.egit.ui 2 0 2021-11-30 15:41:28.459
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\lucas'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.ui 2 2 2021-11-30 16:01:30.960
+!MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-11-30 16:01:57.710
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-11-30 16:01:57.711
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@285cc7ff[org.springframework.tooling.boot.ls:1.29.0.202110250907(id=556)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-11-30 16:01:57.737
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-11-30 16:01:58.243
+!MESSAGE Instantiating ReusableClasspathListenerHandler
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-11-30 16:02:09.521
+!MESSAGE Boot LS startup time from start to initialized: 11694ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-11-30 16:02:09.903
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.QcBdtZqMisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-11-30 16:02:09.946
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-11-30 16:02:09.955
+!MESSAGE Scheduling initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-11-30 16:02:09.957
+!MESSAGE Scheduling initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-11-30 16:02:09.957
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-11-30 16:02:09.958
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.QcBdtZqM => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-11-30 16:02:09.965
+!MESSAGE classpath=67 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-11-30 16:02:09.970
+!MESSAGE buffering callback sts4.classpath.QcBdtZqM helloworld false 67
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-11-30 16:02:09.971
+!MESSAGE executing callback sts4.classpath.QcBdtZqM 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-11-30 16:02:10.819
+!MESSAGE executing callback sts4.classpath.QcBdtZqM SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-11-30 16:02:21.664
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.QcBdtZqM
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-11-30 16:02:21.677
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.QcBdtZqM
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-11-30 16:02:21.679
+!MESSAGE subsribers = {}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-11-30 16:02:21.680
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.QcBdtZqM => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-11-30 16:03:31.448
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-11-30 16:03:31.448
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@285cc7ff[org.springframework.tooling.boot.ls:1.29.0.202110250907(id=556)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-11-30 16:03:31.449
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-11-30 16:03:34.870
+!MESSAGE Boot LS startup time from start to initialized: 3420ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-11-30 16:03:35.043
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.ZrTDFaQhisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-11-30 16:03:35.044
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-11-30 16:03:35.045
+!MESSAGE Scheduling initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-11-30 16:03:35.046
+!MESSAGE Scheduling initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-11-30 16:03:35.047
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-11-30 16:03:35.048
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.ZrTDFaQh => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-11-30 16:03:35.057
+!MESSAGE classpath=67 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-11-30 16:03:35.064
+!MESSAGE buffering callback sts4.classpath.ZrTDFaQh helloworld false 67
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-11-30 16:03:35.065
+!MESSAGE executing callback sts4.classpath.ZrTDFaQh 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-11-30 16:03:35.483
+!MESSAGE executing callback sts4.classpath.ZrTDFaQh SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-11-30 16:06:29.057
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.ZrTDFaQh
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-11-30 16:06:29.058
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.ZrTDFaQh
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-11-30 16:06:29.059
+!MESSAGE subsribers = {}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-11-30 16:06:29.059
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.ZrTDFaQh => OK
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 4 0 2021-11-30 16:06:53.440
+!MESSAGE Illegal character in path at index 16: file:/C:/Program Files/sts-4.12.1.RELEASE/configuration/org.eclipse.osgi/340/0/.cp/xsd/maven-v4_0_0.xsd
+!STACK 0
+java.net.URISyntaxException: Illegal character in path at index 16: file:/C:/Program Files/sts-4.12.1.RELEASE/configuration/org.eclipse.osgi/340/0/.cp/xsd/maven-v4_0_0.xsd
+	at java.base/java.net.URI$Parser.fail(URI.java:2974)
+	at java.base/java.net.URI$Parser.checkChars(URI.java:3145)
+	at java.base/java.net.URI$Parser.parseHierarchical(URI.java:3227)
+	at java.base/java.net.URI$Parser.parse(URI.java:3175)
+	at java.base/java.net.URI.<init>(URI.java:623)
+	at java.base/java.net.URL.toURI(URL.java:1056)
+	at org.eclipse.wildwebdeveloper.xml.internal.ui.preferences.XMLCatalogs.lambda$3(XMLCatalogs.java:75)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:183)
+	at java.base/java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:992)
+	at java.base/java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:762)
+	at java.base/java.util.stream.ReferencePipeline$7$1.accept(ReferencePipeline.java:276)
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:179)
+	at java.base/java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:992)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:150)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:173)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596)
+	at org.eclipse.wildwebdeveloper.xml.internal.ui.preferences.XMLCatalogs.getWTPExtensionCatalog(XMLCatalogs.java:63)
+	at org.eclipse.wildwebdeveloper.xml.internal.ui.preferences.XMLCatalogs.getAllCatalogs(XMLCatalogs.java:50)
+	at org.eclipse.wildwebdeveloper.xml.internal.ui.preferences.XMLPreferenceConstants.storePreferencesToLemminxOptions(XMLPreferenceConstants.java:90)
+	at org.eclipse.wildwebdeveloper.xml.internal.XMLLanguageServer.mergeCustomInitializationOptions(XMLLanguageServer.java:163)
+	at org.eclipse.wildwebdeveloper.xml.internal.XMLLanguageServer.getInitializationOptions(XMLLanguageServer.java:158)
+	at org.eclipse.lsp4e.LanguageServerWrapper.lambda$8(LanguageServerWrapper.java:355)
+	at java.base/java.util.concurrent.CompletableFuture$UniCompose.tryFire(CompletableFuture.java:1150)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1773)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 4 0 2021-11-30 16:06:53.442
+!MESSAGE Illegal character in path at index 16: file:/C:/Program Files/sts-4.12.1.RELEASE/configuration/org.eclipse.osgi/340/0/.cp/xsd/maven-v4_0_0.xsd
+!STACK 0
+java.net.URISyntaxException: Illegal character in path at index 16: file:/C:/Program Files/sts-4.12.1.RELEASE/configuration/org.eclipse.osgi/340/0/.cp/xsd/maven-v4_0_0.xsd
+	at java.base/java.net.URI$Parser.fail(URI.java:2974)
+	at java.base/java.net.URI$Parser.checkChars(URI.java:3145)
+	at java.base/java.net.URI$Parser.parseHierarchical(URI.java:3227)
+	at java.base/java.net.URI$Parser.parse(URI.java:3175)
+	at java.base/java.net.URI.<init>(URI.java:623)
+	at java.base/java.net.URL.toURI(URL.java:1056)
+	at org.eclipse.wildwebdeveloper.xml.internal.ui.preferences.XMLCatalogs.lambda$3(XMLCatalogs.java:75)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:183)
+	at java.base/java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:992)
+	at java.base/java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:762)
+	at java.base/java.util.stream.ReferencePipeline$7$1.accept(ReferencePipeline.java:276)
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:179)
+	at java.base/java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:992)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:150)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:173)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596)
+	at org.eclipse.wildwebdeveloper.xml.internal.ui.preferences.XMLCatalogs.getWTPExtensionCatalog(XMLCatalogs.java:63)
+	at org.eclipse.wildwebdeveloper.xml.internal.ui.preferences.XMLCatalogs.getAllCatalogs(XMLCatalogs.java:50)
+	at org.eclipse.wildwebdeveloper.xml.internal.ui.preferences.XMLPreferenceConstants.storePreferencesToLemminxOptions(XMLPreferenceConstants.java:90)
+	at org.eclipse.wildwebdeveloper.xml.internal.XMLLanguageServer.mergeCustomInitializationOptions(XMLLanguageServer.java:163)
+	at org.eclipse.wildwebdeveloper.xml.internal.XMLLanguageServer.getInitializationOptions(XMLLanguageServer.java:158)
+	at org.eclipse.lsp4e.LanguageServerWrapper.lambda$8(LanguageServerWrapper.java:355)
+	at java.base/java.util.concurrent.CompletableFuture$UniCompose.tryFire(CompletableFuture.java:1150)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1773)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 4 0 2021-11-30 16:06:53.446
+!MESSAGE Illegal character in path at index 16: file:/C:/Program Files/sts-4.12.1.RELEASE/configuration/org.eclipse.osgi/340/0/.cp/xsd/settings-v1_0_0.xsd
+!STACK 0
+java.net.URISyntaxException: Illegal character in path at index 16: file:/C:/Program Files/sts-4.12.1.RELEASE/configuration/org.eclipse.osgi/340/0/.cp/xsd/settings-v1_0_0.xsd
+	at java.base/java.net.URI$Parser.fail(URI.java:2974)
+	at java.base/java.net.URI$Parser.checkChars(URI.java:3145)
+	at java.base/java.net.URI$Parser.parseHierarchical(URI.java:3227)
+	at java.base/java.net.URI$Parser.parse(URI.java:3175)
+	at java.base/java.net.URI.<init>(URI.java:623)
+	at java.base/java.net.URL.toURI(URL.java:1056)
+	at org.eclipse.wildwebdeveloper.xml.internal.ui.preferences.XMLCatalogs.lambda$3(XMLCatalogs.java:75)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:183)
+	at java.base/java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:992)
+	at java.base/java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:762)
+	at java.base/java.util.stream.ReferencePipeline$7$1.accept(ReferencePipeline.java:276)
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:179)
+	at java.base/java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:992)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:150)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:173)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596)
+	at org.eclipse.wildwebdeveloper.xml.internal.ui.preferences.XMLCatalogs.getWTPExtensionCatalog(XMLCatalogs.java:63)
+	at org.eclipse.wildwebdeveloper.xml.internal.ui.preferences.XMLCatalogs.getAllCatalogs(XMLCatalogs.java:50)
+	at org.eclipse.wildwebdeveloper.xml.internal.ui.preferences.XMLPreferenceConstants.storePreferencesToLemminxOptions(XMLPreferenceConstants.java:90)
+	at org.eclipse.wildwebdeveloper.xml.internal.XMLLanguageServer.mergeCustomInitializationOptions(XMLLanguageServer.java:163)
+	at org.eclipse.wildwebdeveloper.xml.internal.XMLLanguageServer.getInitializationOptions(XMLLanguageServer.java:158)
+	at org.eclipse.lsp4e.LanguageServerWrapper.lambda$8(LanguageServerWrapper.java:355)
+	at java.base/java.util.concurrent.CompletableFuture$UniCompose.tryFire(CompletableFuture.java:1150)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1773)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 4 0 2021-11-30 16:06:53.449
+!MESSAGE Illegal character in path at index 16: file:/C:/Program Files/sts-4.12.1.RELEASE/configuration/org.eclipse.osgi/340/0/.cp/xsd/profiles-v1_0_0.xsd
+!STACK 0
+java.net.URISyntaxException: Illegal character in path at index 16: file:/C:/Program Files/sts-4.12.1.RELEASE/configuration/org.eclipse.osgi/340/0/.cp/xsd/profiles-v1_0_0.xsd
+	at java.base/java.net.URI$Parser.fail(URI.java:2974)
+	at java.base/java.net.URI$Parser.checkChars(URI.java:3145)
+	at java.base/java.net.URI$Parser.parseHierarchical(URI.java:3227)
+	at java.base/java.net.URI$Parser.parse(URI.java:3175)
+	at java.base/java.net.URI.<init>(URI.java:623)
+	at java.base/java.net.URL.toURI(URL.java:1056)
+	at org.eclipse.wildwebdeveloper.xml.internal.ui.preferences.XMLCatalogs.lambda$3(XMLCatalogs.java:75)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:183)
+	at java.base/java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:992)
+	at java.base/java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:762)
+	at java.base/java.util.stream.ReferencePipeline$7$1.accept(ReferencePipeline.java:276)
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:179)
+	at java.base/java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:992)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:150)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:173)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596)
+	at org.eclipse.wildwebdeveloper.xml.internal.ui.preferences.XMLCatalogs.getWTPExtensionCatalog(XMLCatalogs.java:63)
+	at org.eclipse.wildwebdeveloper.xml.internal.ui.preferences.XMLCatalogs.getAllCatalogs(XMLCatalogs.java:50)
+	at org.eclipse.wildwebdeveloper.xml.internal.ui.preferences.XMLPreferenceConstants.storePreferencesToLemminxOptions(XMLPreferenceConstants.java:90)
+	at org.eclipse.wildwebdeveloper.xml.internal.XMLLanguageServer.mergeCustomInitializationOptions(XMLLanguageServer.java:163)
+	at org.eclipse.wildwebdeveloper.xml.internal.XMLLanguageServer.getInitializationOptions(XMLLanguageServer.java:158)
+	at org.eclipse.lsp4e.LanguageServerWrapper.lambda$8(LanguageServerWrapper.java:355)
+	at java.base/java.util.concurrent.CompletableFuture$UniCompose.tryFire(CompletableFuture.java:1150)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1773)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 4 0 2021-11-30 16:06:53.532
+!MESSAGE Illegal character in path at index 16: file:/C:/Program Files/sts-4.12.1.RELEASE/configuration/org.eclipse.osgi/340/0/.cp/xsd/archetype-1.0.0.xsd
+!STACK 0
+java.net.URISyntaxException: Illegal character in path at index 16: file:/C:/Program Files/sts-4.12.1.RELEASE/configuration/org.eclipse.osgi/340/0/.cp/xsd/archetype-1.0.0.xsd
+	at java.base/java.net.URI$Parser.fail(URI.java:2974)
+	at java.base/java.net.URI$Parser.checkChars(URI.java:3145)
+	at java.base/java.net.URI$Parser.parseHierarchical(URI.java:3227)
+	at java.base/java.net.URI$Parser.parse(URI.java:3175)
+	at java.base/java.net.URI.<init>(URI.java:623)
+	at java.base/java.net.URL.toURI(URL.java:1056)
+	at org.eclipse.wildwebdeveloper.xml.internal.ui.preferences.XMLCatalogs.lambda$3(XMLCatalogs.java:75)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:183)
+	at java.base/java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:992)
+	at java.base/java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:762)
+	at java.base/java.util.stream.ReferencePipeline$7$1.accept(ReferencePipeline.java:276)
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:179)
+	at java.base/java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:992)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:150)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:173)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596)
+	at org.eclipse.wildwebdeveloper.xml.internal.ui.preferences.XMLCatalogs.getWTPExtensionCatalog(XMLCatalogs.java:63)
+	at org.eclipse.wildwebdeveloper.xml.internal.ui.preferences.XMLCatalogs.getAllCatalogs(XMLCatalogs.java:50)
+	at org.eclipse.wildwebdeveloper.xml.internal.ui.preferences.XMLPreferenceConstants.storePreferencesToLemminxOptions(XMLPreferenceConstants.java:90)
+	at org.eclipse.wildwebdeveloper.xml.internal.XMLLanguageServer.mergeCustomInitializationOptions(XMLLanguageServer.java:163)
+	at org.eclipse.wildwebdeveloper.xml.internal.XMLLanguageServer.getInitializationOptions(XMLLanguageServer.java:158)
+	at org.eclipse.lsp4e.LanguageServerWrapper.lambda$8(LanguageServerWrapper.java:355)
+	at java.base/java.util.concurrent.CompletableFuture$UniCompose.tryFire(CompletableFuture.java:1150)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1773)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 4 0 2021-11-30 16:06:53.535
+!MESSAGE Illegal character in path at index 16: file:/C:/Program Files/sts-4.12.1.RELEASE/configuration/org.eclipse.osgi/340/0/.cp/xsd/archetype-catalog-1.0.0.xsd
+!STACK 0
+java.net.URISyntaxException: Illegal character in path at index 16: file:/C:/Program Files/sts-4.12.1.RELEASE/configuration/org.eclipse.osgi/340/0/.cp/xsd/archetype-catalog-1.0.0.xsd
+	at java.base/java.net.URI$Parser.fail(URI.java:2974)
+	at java.base/java.net.URI$Parser.checkChars(URI.java:3145)
+	at java.base/java.net.URI$Parser.parseHierarchical(URI.java:3227)
+	at java.base/java.net.URI$Parser.parse(URI.java:3175)
+	at java.base/java.net.URI.<init>(URI.java:623)
+	at java.base/java.net.URL.toURI(URL.java:1056)
+	at org.eclipse.wildwebdeveloper.xml.internal.ui.preferences.XMLCatalogs.lambda$3(XMLCatalogs.java:75)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:183)
+	at java.base/java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:992)
+	at java.base/java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:762)
+	at java.base/java.util.stream.ReferencePipeline$7$1.accept(ReferencePipeline.java:276)
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:179)
+	at java.base/java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:992)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:150)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:173)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596)
+	at org.eclipse.wildwebdeveloper.xml.internal.ui.preferences.XMLCatalogs.getWTPExtensionCatalog(XMLCatalogs.java:63)
+	at org.eclipse.wildwebdeveloper.xml.internal.ui.preferences.XMLCatalogs.getAllCatalogs(XMLCatalogs.java:50)
+	at org.eclipse.wildwebdeveloper.xml.internal.ui.preferences.XMLPreferenceConstants.storePreferencesToLemminxOptions(XMLPreferenceConstants.java:90)
+	at org.eclipse.wildwebdeveloper.xml.internal.XMLLanguageServer.mergeCustomInitializationOptions(XMLLanguageServer.java:163)
+	at org.eclipse.wildwebdeveloper.xml.internal.XMLLanguageServer.getInitializationOptions(XMLLanguageServer.java:158)
+	at org.eclipse.lsp4e.LanguageServerWrapper.lambda$8(LanguageServerWrapper.java:355)
+	at java.base/java.util.concurrent.CompletableFuture$UniCompose.tryFire(CompletableFuture.java:1150)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1773)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 4 0 2021-11-30 16:06:53.538
+!MESSAGE Illegal character in path at index 16: file:/C:/Program Files/sts-4.12.1.RELEASE/configuration/org.eclipse.osgi/340/0/.cp/xsd/archetype-descriptor-1.0.0.xsd
+!STACK 0
+java.net.URISyntaxException: Illegal character in path at index 16: file:/C:/Program Files/sts-4.12.1.RELEASE/configuration/org.eclipse.osgi/340/0/.cp/xsd/archetype-descriptor-1.0.0.xsd
+	at java.base/java.net.URI$Parser.fail(URI.java:2974)
+	at java.base/java.net.URI$Parser.checkChars(URI.java:3145)
+	at java.base/java.net.URI$Parser.parseHierarchical(URI.java:3227)
+	at java.base/java.net.URI$Parser.parse(URI.java:3175)
+	at java.base/java.net.URI.<init>(URI.java:623)
+	at java.base/java.net.URL.toURI(URL.java:1056)
+	at org.eclipse.wildwebdeveloper.xml.internal.ui.preferences.XMLCatalogs.lambda$3(XMLCatalogs.java:75)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:183)
+	at java.base/java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:992)
+	at java.base/java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:762)
+	at java.base/java.util.stream.ReferencePipeline$7$1.accept(ReferencePipeline.java:276)
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:179)
+	at java.base/java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:992)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:150)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:173)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596)
+	at org.eclipse.wildwebdeveloper.xml.internal.ui.preferences.XMLCatalogs.getWTPExtensionCatalog(XMLCatalogs.java:63)
+	at org.eclipse.wildwebdeveloper.xml.internal.ui.preferences.XMLCatalogs.getAllCatalogs(XMLCatalogs.java:50)
+	at org.eclipse.wildwebdeveloper.xml.internal.ui.preferences.XMLPreferenceConstants.storePreferencesToLemminxOptions(XMLPreferenceConstants.java:90)
+	at org.eclipse.wildwebdeveloper.xml.internal.XMLLanguageServer.mergeCustomInitializationOptions(XMLLanguageServer.java:163)
+	at org.eclipse.wildwebdeveloper.xml.internal.XMLLanguageServer.getInitializationOptions(XMLLanguageServer.java:158)
+	at org.eclipse.lsp4e.LanguageServerWrapper.lambda$8(LanguageServerWrapper.java:355)
+	at java.base/java.util.concurrent.CompletableFuture$UniCompose.tryFire(CompletableFuture.java:1150)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1773)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 4 0 2021-11-30 16:06:53.546
+!MESSAGE Illegal character in path at index 16: file:/C:/Program Files/sts-4.12.1.RELEASE/configuration/org.eclipse.osgi/487/0/.cp/cache/www.w3.org/2001/xml.xsd
+!STACK 0
+java.net.URISyntaxException: Illegal character in path at index 16: file:/C:/Program Files/sts-4.12.1.RELEASE/configuration/org.eclipse.osgi/487/0/.cp/cache/www.w3.org/2001/xml.xsd
+	at java.base/java.net.URI$Parser.fail(URI.java:2974)
+	at java.base/java.net.URI$Parser.checkChars(URI.java:3145)
+	at java.base/java.net.URI$Parser.parseHierarchical(URI.java:3227)
+	at java.base/java.net.URI$Parser.parse(URI.java:3175)
+	at java.base/java.net.URI.<init>(URI.java:623)
+	at java.base/java.net.URL.toURI(URL.java:1056)
+	at org.eclipse.wildwebdeveloper.xml.internal.ui.preferences.XMLCatalogs.lambda$3(XMLCatalogs.java:75)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:183)
+	at java.base/java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:992)
+	at java.base/java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:762)
+	at java.base/java.util.stream.ReferencePipeline$7$1.accept(ReferencePipeline.java:276)
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:179)
+	at java.base/java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:992)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:150)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:173)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596)
+	at org.eclipse.wildwebdeveloper.xml.internal.ui.preferences.XMLCatalogs.getWTPExtensionCatalog(XMLCatalogs.java:63)
+	at org.eclipse.wildwebdeveloper.xml.internal.ui.preferences.XMLCatalogs.getAllCatalogs(XMLCatalogs.java:50)
+	at org.eclipse.wildwebdeveloper.xml.internal.ui.preferences.XMLPreferenceConstants.storePreferencesToLemminxOptions(XMLPreferenceConstants.java:90)
+	at org.eclipse.wildwebdeveloper.xml.internal.XMLLanguageServer.mergeCustomInitializationOptions(XMLLanguageServer.java:163)
+	at org.eclipse.wildwebdeveloper.xml.internal.XMLLanguageServer.getInitializationOptions(XMLLanguageServer.java:158)
+	at org.eclipse.lsp4e.LanguageServerWrapper.lambda$8(LanguageServerWrapper.java:355)
+	at java.base/java.util.concurrent.CompletableFuture$UniCompose.tryFire(CompletableFuture.java:1150)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1773)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-11-30 16:09:17.490
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-11-30 16:09:17.490
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@285cc7ff[org.springframework.tooling.boot.ls:1.29.0.202110250907(id=556)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-11-30 16:09:17.491
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-11-30 16:09:21.060
+!MESSAGE Boot LS startup time from start to initialized: 3567ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-11-30 16:09:21.142
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.tECwgVtbisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-11-30 16:09:21.143
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-11-30 16:09:21.143
+!MESSAGE Scheduling initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-11-30 16:09:21.144
+!MESSAGE Scheduling initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-11-30 16:09:21.144
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-11-30 16:09:21.145
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.tECwgVtb => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-11-30 16:09:21.149
+!MESSAGE classpath=67 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-11-30 16:09:21.151
+!MESSAGE buffering callback sts4.classpath.tECwgVtb helloworld false 67
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-11-30 16:09:21.151
+!MESSAGE executing callback sts4.classpath.tECwgVtb 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-11-30 16:09:21.433
+!MESSAGE executing callback sts4.classpath.tECwgVtb SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-11-30 16:09:32.410
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.tECwgVtb
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-11-30 16:09:32.411
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.tECwgVtb
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-11-30 16:09:32.412
+!MESSAGE subsribers = {}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-11-30 16:09:32.412
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.tECwgVtb => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-11-30 16:13:05.809
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-11-30 16:13:05.810
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@285cc7ff[org.springframework.tooling.boot.ls:1.29.0.202110250907(id=556)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-11-30 16:13:05.811
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-11-30 16:13:08.289
+!MESSAGE Boot LS startup time from start to initialized: 2477ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-11-30 16:13:08.383
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.hrQqXMwmisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-11-30 16:13:08.383
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-11-30 16:13:08.384
+!MESSAGE Scheduling initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-11-30 16:13:08.385
+!MESSAGE Scheduling initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-11-30 16:13:08.385
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-11-30 16:13:08.386
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.hrQqXMwm => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-11-30 16:13:08.389
+!MESSAGE classpath=67 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-11-30 16:13:08.391
+!MESSAGE buffering callback sts4.classpath.hrQqXMwm helloworld false 67
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-11-30 16:13:08.392
+!MESSAGE executing callback sts4.classpath.hrQqXMwm 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-11-30 16:13:08.696
+!MESSAGE executing callback sts4.classpath.hrQqXMwm SUCCESS [done]
+
+!ENTRY org.eclipse.lsp4e 2 0 2021-11-30 16:16:56.393
+!MESSAGE Javadoc unavailable. Failed to obtain it.
+!STACK 0
+java.lang.InterruptedException
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:386)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2096)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:70)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
