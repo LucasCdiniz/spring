@@ -605,3 +605,105 @@ java.lang.InterruptedException
 	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
 	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
 	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-11-30 16:47:46.701
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-11-30 16:47:46.702
+!MESSAGE classpath=1 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-11-30 16:47:46.702
+!MESSAGE buffering callback sts4.classpath.hrQqXMwm habilidadesementalidades false 1
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-11-30 16:47:46.703
+!MESSAGE executing callback sts4.classpath.hrQqXMwm 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-11-30 16:47:46.711
+!MESSAGE executing callback sts4.classpath.hrQqXMwm SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-11-30 16:47:46.826
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-11-30 16:47:46.831
+!MESSAGE classpath=65 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-11-30 16:47:46.835
+!MESSAGE buffering callback sts4.classpath.hrQqXMwm habilidadesementalidades false 65
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-11-30 16:47:46.835
+!MESSAGE executing callback sts4.classpath.hrQqXMwm 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-11-30 16:47:46.863
+!MESSAGE executing callback sts4.classpath.hrQqXMwm SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-11-30 16:47:46.983
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-11-30 16:47:46.987
+!MESSAGE classpath=67 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-11-30 16:47:46.991
+!MESSAGE buffering callback sts4.classpath.hrQqXMwm habilidadesementalidades false 67
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-11-30 16:47:46.991
+!MESSAGE executing callback sts4.classpath.hrQqXMwm 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-11-30 16:47:47.011
+!MESSAGE executing callback sts4.classpath.hrQqXMwm SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-11-30 16:47:47.527
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-11-30 16:47:47.532
+!MESSAGE classpath=67 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-11-30 16:47:47.535
+!MESSAGE buffering callback sts4.classpath.hrQqXMwm habilidadesementalidades false 67
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-11-30 16:47:47.536
+!MESSAGE executing callback sts4.classpath.hrQqXMwm 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-11-30 16:47:47.554
+!MESSAGE executing callback sts4.classpath.hrQqXMwm SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-11-30 16:47:47.587
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-11-30 16:47:47.590
+!MESSAGE classpath=65 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-11-30 16:47:47.593
+!MESSAGE buffering callback sts4.classpath.hrQqXMwm habilidadesementalidades false 65
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-11-30 16:47:47.593
+!MESSAGE executing callback sts4.classpath.hrQqXMwm 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-11-30 16:47:47.607
+!MESSAGE executing callback sts4.classpath.hrQqXMwm SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-11-30 16:47:47.628
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-11-30 16:47:47.633
+!MESSAGE classpath=67 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-11-30 16:47:47.637
+!MESSAGE buffering callback sts4.classpath.hrQqXMwm habilidadesementalidades false 67
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-11-30 16:47:47.638
+!MESSAGE executing callback sts4.classpath.hrQqXMwm 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-11-30 16:47:47.655
+!MESSAGE executing callback sts4.classpath.hrQqXMwm SUCCESS [done]
+
+!ENTRY org.eclipse.lsp4e 2 0 2021-11-30 16:50:41.081
+!MESSAGE Timeout waiting for data to generate LS hover
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:70)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
