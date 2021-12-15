@@ -8,8 +8,9 @@ import org.springframework.stereotype.Repository;
 import br.org.generation.lojadegames.model.Categoria;
 
 @Repository
-public interface CategoriaRepository extends JpaRepository<Categoria,Long>{
-	
-	public List <Categoria> findByDescricaoCategoriaContainingIgnoreCase(String descricao);
+public interface CategoriaRepository extends JpaRepository<Categoria, Long>{
 
+	
+	public List<Categoria> findAllByTipoContainingIgnoreCase(String tipo);
+	
 }
